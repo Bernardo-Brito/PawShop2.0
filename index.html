@@ -78,11 +78,68 @@
                 </button>
               </div>
         </section>
+
+        <section id="apresentacao" class="my-2 text-info text-center container-fluid d-flex flex-column align-items-center">
+          <h2 class="my-3">SEU PET PRECISA DE COMIDA? OU DE UNS PETISCOS? VOCÊ ESTÁ NO LUGAR CERTO!</h2>
+          
+          <div class="container row" id="grupoApresentacao">
+            <div class="m-0 p-0 col-3" id="dog1">
+              <img class="w-100" src="images/dogsSection/img1.png" alt="dog1">
+            </div>
+            <div class="m-0 p-0 col-3" id="dog2">
+              <img class="w-100" src="images/dogsSection/img2.png" alt="dog2">
+            </div>
+            <div class="m-0 p-0 col-3" id="dog3">
+              <img class="w-100" src="images/dogsSection/img3.png" alt="dog3">
+            </div>
+            <div class="m-0 p-0 col-3" id="dog4">
+              <img class="w-100" src="images/dogsSection/img4.png" alt="dog4">
+            </div>
+          </div>
+
+          <p class="m-3">Na nossa empresa, sabemos que seu pet é mais do que apenas um animal de estimação; ele é parte da sua família. Por isso, estamos comprometidos em fornecer os melhores cuidados do mercado, garantindo que seu amiguinho peludo receba toda a atenção, carinho e proteção de que ele precisa. A responsabilidade é o nosso lema, e cuidar do seu pet como se fosse o nosso próprio é a nossa missão. Com uma equipe dedicada de profissionais apaixonados por animais, instalações de ponta e uma variedade de serviços que atendem a todas as necessidades do seu pet, estamos aqui para garantir que ele tenha uma vida feliz e saudável. Deixe-nos cuidar do seu pet, para que você possa aproveitar cada momento especial com ele, sabendo que está em mãos seguras e amorosas.</p>
+
+        </section>
+
+        <section id="catalogo">
+          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#produtoColeira">
+            VER MAIS
+          </button>
+          
+        </section>
+
     </main>
 
     <footer>
 
     </footer>
+
+    <div id="modais">
+      <!-- modal coleira -->
+      <div class="modal fade" id="produtoColeira" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">Coleira</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <img class="w-100" src="images/products/productImage.png" alt="imagem do produto">
+            
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis commodi iure ea exercitationem assumenda odit laboriosam debitis quae voluptates corrupti vel voluptate nostrum nemo impedit facere autem, aliquam nulla a?</p>
+              <h4 class="text-success my-2">R$ 466</h4>
+
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Fechar</button>
+              <button type="button" class="btn btn-success">Adicionar ao carrinho</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- fim modal coleira -->
+    </div>
+
     <script src="scripts/bootstrap.bundle.min.js"></script>
     <script>
         var botaoTema = document.querySelector("#trocatemabtn")
@@ -101,4 +158,5 @@
         }
     </script>
 </body>
+
 </html>
