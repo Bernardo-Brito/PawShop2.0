@@ -1,3 +1,13 @@
 header nav{
     background-color: #6EB3D0;
 }
+
+.bg-bluePersonal{
+    background-color: #6EB3D0;
+    text-align: center;
+}
+
+form .bg-bluePersonal:hover{
+    background-color: #3493bc;
+    color: white;
+}
